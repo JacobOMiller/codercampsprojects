@@ -1,0 +1,64 @@
+
+
+# Install express.
+sudo npm install express-generator -g
+
+# Install nodemon
+npm install -g nodemon
+
+# Install yoeman
+sudo npm install yo -g
+
+# Install the coder camps single page app yoeman scaffolding.
+sudo npm install -g generator-codercamps-spa
+
+# NOTE: Copy over the template file that is in Uppercase to a lowercase version.
+sudo cp /usr/lib/node_modules/generator-codercamps-spa/generators/app/templates/public/templates/Home.html /usr/lib/node_modules/generator-codercamps-spa/generators/app/templates/public/templates/home.html
+
+# Install the coder camps js yoeman scaffolding.
+npm install -g generator-codercamps-js
+
+
+
+# Express and MongoDB CRUD.
+https://zellwk.com/blog/crud-express-mongodb/
+
+# User Authentication with MEAN Stack.
+https://www.sitepoint.com/user-authentication-mean-stack/
+
+# Express and Typescript simple setup.
+http://ramachandrang.com/2016/04/23/express-angular2-application-using-typescript-server-setup.html
+
+# Typscript and express.
+http://brianflove.com/2016/03/29/typescript-express-node-js/
+
+# NodeJs App with Mongoose
+https://scotch.io/tutorials/using-mongoosejs-in-node-js-and-mongodb-applications
+
+
+https://www.airpair.com/javascript/complete-expressjs-nodejs-mongodb-crud-skeleton
+https://scotch.io/tutorials/using-mongoosejs-in-node-js-and-mongodb-applications
+http://borjarefoyo.com/2016/04/24/build-nodejs-stack-typescript-expressjs-mongodb-angularjs/
+http://www.ibm.com/developerworks/library/wa-nodejs-polling-app/
+https://robrich.org/slides/welcome_to_the_mean_stack/#/34
+https://www.topcoder.com/blog/start-writing-es6-javascript-in-your-node-js-apps-today/
+https://thinkster.io/mean-stack-tutorial
+http://briantford.com/blog/angular-express
+
+
+
+The Internet Movie Database (IMDb) is a website that provides information on over 3.5 million movies, television shows, and video game titles. Users can rate each title on a scale from 1-10.
+
+Create an IMDB clone using the full stack (AngularJS + Express + MongoDB).  Here are the requirements:
+
+You should be able to enter a movie Title, Director, and Picture (link to an online picture).
+You should support full CRUD for movies (Create, Read, Update, Delete).
+The homepage should display a list of the top 5 movies listed in order of rating.
+Users should be able to rate a movie with  a value between 1-10.
+Extra Credit:
+
+Add a list of actors for each movie (a one-to-many relationship).
+Use FileStack.com to enable file uploads for the movie Picture.
+Create a user registration/login system.
+Require a user to login before rating a movie.
+Use claims to prevent anyone except an Administrator from adding, updating, or deleting movies.
